@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Contato;
 use App\Models\Noticia;
 use Illuminate\Http\Request;
+
+use function Ramsey\Uuid\v1;
 
 class AdminController extends Controller
 {
@@ -22,7 +25,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
