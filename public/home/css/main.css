@@ -62,7 +62,7 @@ h4,
 h5,
 h6 {
   color: var(--white);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-family: "Kanit", sans-serif;
 }
 

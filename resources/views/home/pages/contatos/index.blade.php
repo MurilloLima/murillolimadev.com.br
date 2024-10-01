@@ -79,7 +79,7 @@
                         </div>
                         <div class="contact__item mb-20">
                             <span class="he1">
-                                Phone
+                                Telefone/Whatsapp
                             </span>
                             <a href="contact.html#0">
                                 +(55) 99 99110-6799
