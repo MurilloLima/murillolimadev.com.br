@@ -43,7 +43,7 @@
                                     style="margin: 10px;">
                                     <ul>
                                         @foreach ($errors->all() as $error)
-                                            <li style="text-align: center">{{ $error }}</li>
+                                            <li style="text-align: center; background-color: var(--base);">{{ $error }}</li>
                                         @endforeach
                                     </ul>
                                 </div>
