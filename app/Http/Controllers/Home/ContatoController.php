@@ -34,15 +34,10 @@ class ContatoController extends Controller
             'email' => 'required',
             'subject' => 'required',
             'content' => 'required',
-            
+
         ]);
-        Contato::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'content' => $request->subject,
-        ]);
-        return redirect()->back()->with('msg', 'Agendamento criado sucesso!');
+        Contato::create($request->all());
+        return redirect()->back()->with('msg', 'Recebi sua mensagem, embreve entrarei em contato! AGUARDE!!!');
     }
 
     /**

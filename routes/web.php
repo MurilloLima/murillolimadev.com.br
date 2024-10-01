@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home.pages.index');
 Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.pages.sobre');
 Route::get('/contatos', [HomeController::class, 'contatos'])->name('home.pages.contatos');
-Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.pages.contact.store');
+Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.contact.store');
 
 
 Route::get('/dashboard', function () {
