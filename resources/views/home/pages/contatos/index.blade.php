@@ -39,7 +39,8 @@
                             </h3>
                             website: www.murillolimadev.com.br <br>
                             e-mail: contato@murillolimadev.com.br <br>
-                            Telefone: (99)991106799
+                            Telefone: (99)991106799 <br>
+                            <a style="color: #FFF" href="{{ route('home.pages.politica') }}"><span>Política de Privacidade</span></a>
                         </div>
                     </div>
                 </div>

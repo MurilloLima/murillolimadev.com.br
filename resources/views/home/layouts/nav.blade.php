@@ -37,8 +37,7 @@
                 </li>
             </ul>
             <div class="menu__components d-flex align-items-center">
-                <a href="https://web.whatsapp.com/send?phone=5599991106799"
-                    class="d-flex fw-500 cmn--btn align-items-center gap-2">
+                <a href="https://wa.me/5599991106799" class="d-flex fw-500 cmn--btn align-items-center gap-2">
                     <span class="get__text">
                         Whatsapp
                     </span>
