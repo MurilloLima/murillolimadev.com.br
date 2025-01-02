@@ -15,9 +15,9 @@ class HomeController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index(Request $request)
+    public function fale()
     {
-        
+        return view('home.pages.fale');
     }
     /**
      * Show the form for creating a new resource.

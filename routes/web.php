@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home.pages.index');
 Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.pages.sobre');
 Route::get('/contatos', [HomeController::class, 'contatos'])->name('home.pages.contatos');
+Route::get('/falecomigo', [HomeController::class, 'fale'])->name('home.pages.fale');
 Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.contact.store');
 
 
@@ -24,7 +25,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    
+
     //contatos
     Route::get('/admin/contatos', [ContatoController::class, 'index'])->name('admn.pages.conatatos.index');
 

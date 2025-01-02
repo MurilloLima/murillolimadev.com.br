@@ -18,7 +18,7 @@
                             /
                         </li>
                         <li class="base">
-                            Contatos
+                            Vamos começar algo
                         </li>
                     </ul>
                 </div>
@@ -35,11 +35,56 @@
                     <div class="contact__box">
                         <div class="replay__box cmn__bg">
                             <h3>
-                                Contatos
+                                Deixe sua pergunta
                             </h3>
-                            website: www.murillolimadev.com.br <br>
-                            e-mail: contato@murillolimadev.com.br <br>
-                            Telefone: (99)991106799
+
+                            @if ($errors->any())
+                                <div class="alert text-center" style="margin: 10px;">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li style="text-align: center; background-color: var(--base);">
+                                                {{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            @if (session('msg'))
+                                <div class="row text-center">
+                                    <div class="col-md-12" \>
+                                        <div class="alert alert-success text-center" style="background-color: var(--base)">
+                                            {{ session('msg') }}
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+
+                            <form action="{{ route('home.contact.store') }}" method="post" class="row g-4">
+                                @csrf
+                                <div class="col-lg-12">
+                                    <input type="text" name="name" placeholder="Nome">
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <input type="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="text" name="subject" placeholder="Assunto">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea name="content" rows="5" placeholder="Mensagem"></textarea>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="submit" value="Enviar mensagem" name="store"
+                                        class=" border-0 d-flex fw-500 cmn--btn align-items-center gap-2">
+                                        <span class="get__text">
+                                            Enviar mensagem
+                                        </span>
+                                        <span>
+                                            <i class="bi bi-arrow-right fz-20"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

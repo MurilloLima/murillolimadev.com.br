@@ -69,4 +69,10 @@ class HomeController extends Controller
         $request->session()->regenerateToken();
         return redirect('/');
     }
+
+    //fale comigo
+    public function fale()
+    {
+        return view('home.pages.falecomigo.index');
+    }
 }
