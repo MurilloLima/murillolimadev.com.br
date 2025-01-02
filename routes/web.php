@@ -14,6 +14,7 @@ Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.pages.sobre')
 Route::get('/contatos', [HomeController::class, 'contatos'])->name('home.pages.contatos');
 Route::get('/falecomigo', [HomeController::class, 'fale'])->name('home.pages.fale');
 Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.contact.store');
+Route::get('/politica', [HomeController::class, 'politica'])->name('home.pages.politica');
 
 
 Route::get('/dashboard', function () {

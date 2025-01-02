@@ -75,4 +75,10 @@ class HomeController extends Controller
     {
         return view('home.pages.falecomigo.index');
     }
+
+    //politica
+    public function politica()
+    {
+        return view('home.pages.politica.index');
+    }
 }
