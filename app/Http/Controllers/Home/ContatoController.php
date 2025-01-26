@@ -32,10 +32,9 @@ class ContatoController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|unique:users|email',
             'subject' => 'required',
-            'content' => 'required',
-
+            'content' => 'required'
         ]);
         Contato::create($request->all());
         return redirect()->back()->with('msg', 'Recebi sua mensagem, embreve entrarei em contato! AGUARDE!!!');

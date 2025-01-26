@@ -42,8 +42,10 @@
                                 <div class="alert text-center" style="margin: 10px;">
                                     <ul>
                                         @foreach ($errors->all() as $error)
-                                            <li style="text-align: center; background-color: var(--base);">
-                                                {{ $error }}</li>
+                                            <div class="alert alert-success text-center"
+                                                style="background-color: var(--base)">
+                                                {{ $error }}
+                                            </div>
                                         @endforeach
                                     </ul>
                                 </div>
@@ -67,6 +69,7 @@
                                 <div class="col-lg-12">
                                     <input type="email" name="email" placeholder="Email">
                                 </div>
+
                                 <div class="col-lg-12">
                                     <input type="text" name="subject" placeholder="Assunto">
                                 </div>
