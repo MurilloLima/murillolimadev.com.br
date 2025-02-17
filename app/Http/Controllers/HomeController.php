@@ -22,9 +22,9 @@ class HomeController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function contatos()
+    public function aplicativo()
     {
-        return view('home.pages.contatos.index');
+        return view('home.pages.app.index');
     }
 
     /**
@@ -38,9 +38,10 @@ class HomeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function contatos()
     {
-        //
+        return view('home.pages.contatos.index');
+
     }
 
     /**

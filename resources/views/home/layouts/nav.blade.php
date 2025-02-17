@@ -24,8 +24,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://play.google.com/store/apps/details?id=com.murillo_smit.murillolimadevApp">
-                        Aplicativo
+                    <a href="{{ route('home.pages.aplicativo') }}">Aplicativo
                     </a>
                 </li>
                 <li>
