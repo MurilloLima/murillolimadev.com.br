@@ -388,7 +388,6 @@
                                             HTTP e REST<br>
                                             Banco de dados<br>
                                             NPM<br>
-                                            Habilidades pessoais<br>
                                             Desenvolvimento mobile <br>
                                             Laravel <br>
                                             Nodejs <br>
