@@ -379,21 +379,21 @@
                                             Minhas habilidades
                                         </h2>
                                         <p>
-                                            HTML5 <br>
-                                            CSS3 <br>
+                                            Html5 <br>
+                                            Css3 <br>
                                             JavaScript <br>
                                             Git e GitHub <br>
                                             Linguagens back-end<br>
                                             Arquitetura web<br>
                                             HTTP e REST<br>
-                                            Banco de dados<br>
+                                            SQL - Banco de dados<br>
                                             NPM<br>
                                             Desenvolvimento mobile <br>
                                             Laravel <br>
                                             Nodejs <br>
                                             React <br>
                                             React Native <br>
-                                            SQL
+
                                         </p>
                                         <div class="about__contactwrap">
                                             <div class="row g-4">
