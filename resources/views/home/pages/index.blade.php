@@ -379,17 +379,22 @@
                                             Minhas habilidades
                                         </h2>
                                         <p>
-                                            HTML / CSS <br>
+                                            HTML5 <br>
+                                            CSS3 <br>
                                             JavaScript <br>
                                             Git e GitHub <br>
                                             Linguagens back-end<br>
                                             Arquitetura web<br>
                                             HTTP e REST<br>
-                                            Armazenamento de banco de dados<br>
-                                            Habilidades básicas de design<br>
+                                            Banco de dados<br>
                                             NPM<br>
                                             Habilidades pessoais<br>
-                                            Desenvolvimento mobile
+                                            Desenvolvimento mobile <br>
+                                            Laravel <br>
+                                            Nodejs <br>
+                                            React <br>
+                                            React Native <br>
+                                            SQl
                                         </p>
                                         <div class="about__contactwrap">
                                             <div class="row g-4">
@@ -763,7 +768,7 @@
     <!--<< process >>-->
 
     <!--<< testimonial >>-->
-   
+
     <!--<< testimonial >>-->
 
     <!--<< blog >>-->
