@@ -394,7 +394,7 @@
                                             Nodejs <br>
                                             React <br>
                                             React Native <br>
-                                            SQl
+                                            SQL
                                         </p>
                                         <div class="about__contactwrap">
                                             <div class="row g-4">
