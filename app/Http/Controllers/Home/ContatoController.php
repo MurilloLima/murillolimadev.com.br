@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class ContatoController extends Controller
 {
+    private $falecomigo;
+    public function __construct(Contato $falecomigo)
+    {
+        $this->falecomigo = $falecomigo;
+    }
     /**
      * Display a listing of the resource.
      */
@@ -70,6 +75,7 @@ class ContatoController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $this->falecomigo->destroy($id);
+        return redirect()->back()->with('msg', 'Deletada com sucesso!');
     }
 }

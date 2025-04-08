@@ -20,6 +20,15 @@
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
             <div class="row">
+                <div class="col-md-12">
+                    @if (session('msg'))
+                        <div class="alert alert-success text-center">
+                            {{ session('msg') }}
+                        </div>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-12">
 
                     <div class="card">
@@ -27,6 +36,7 @@
                             <h3 class="card-title">Contatos</h3>
                         </div>
                         <!-- /.card-header -->
+
                         <div class="card-body">
                             <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
                                 <div class="row">
@@ -56,8 +66,9 @@
                                                         <td>{{ $item->subject }}</td>
                                                         <td>{{ $item->content }}</td>
                                                         <td>
-                                                            <a href="">
-                                                                <i class="fa  fa-trash-o"></i>
+                                                            <a
+                                                                href="{{ route('admn.pages.falecomigo.delete', [$item->id]) }}">
+                                                                <i class="fa  fa-trash"></i>
                                                             </a>
                                                         </td>
                                                     </tr>

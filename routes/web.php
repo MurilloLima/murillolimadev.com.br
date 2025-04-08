@@ -29,7 +29,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     //contatos
-    Route::get('/admin/contatos', [ContatoController::class, 'index'])->name('admn.pages.conatatos.index');
+    Route::get('/admin/falecomigo', [ContatoController::class, 'index'])->name('admn.pages.conatatos.index');
+    Route::get('/admin/falecomigo/{id}', [ContatoController::class, 'destroy'])->name('admn.pages.falecomigo.delete');
 
     //projetos
     Route::get('/admin/projetos', [ProjetosController::class, 'index'])->name('admn.pages.projetos.index');
