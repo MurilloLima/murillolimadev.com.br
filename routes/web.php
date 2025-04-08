@@ -14,13 +14,13 @@ Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.pages.sobre')
 Route::get('/contatos', [HomeController::class, 'contatos'])->name('home.pages.contatos');
 Route::get('/falecomigo', [HomeController::class, 'fale'])->name('home.pages.fale');
 Route::get('/aplicativo', [HomeController::class, 'aplicativo'])->name('home.pages.aplicativo');
-Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.contact.store');
+Route::post('/falecomigo/store', [ContatoController::class, 'store'])->name('home.pages.falecomigo.store');
 Route::get('/politica', [HomeController::class, 'politica'])->name('home.pages.politica');
 
 
 Route::get('/dashboard', function () {
     $data = Projeto::latest()->get();
-    return view('admin.pages.index', compact('data'));
+    return view('admin.pages.contact.index', compact('data'));
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {

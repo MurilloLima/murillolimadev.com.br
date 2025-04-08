@@ -60,7 +60,7 @@
                                 </div>
                             @endif
 
-                            <form action="{{ route('home.contact.store') }}" method="post" class="row g-4">
+                            <form action="{{ route('home.pages.falecomigo.store') }}" method="post" class="row g-4">
                                 @csrf
                                 <div class="col-lg-12">
                                     <input type="text" name="name" placeholder="Nome">

@@ -46,7 +46,7 @@
                                                     <th>
                                                         Mensagem
                                                     </th>
-
+                                                    <td></td>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -55,6 +55,11 @@
                                                         <td>{{ $item->name }}</td>
                                                         <td>{{ $item->subject }}</td>
                                                         <td>{{ $item->content }}</td>
+                                                        <td>
+                                                            <a href="">
+                                                                <i class="fa  fa-trash-o"></i>
+                                                            </a>
+                                                        </td>
                                                     </tr>
                                                 @endforeach
 

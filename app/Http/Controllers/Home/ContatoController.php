@@ -36,6 +36,7 @@ class ContatoController extends Controller
             'subject' => 'required',
             'content' => 'required'
         ]);
+
         Contato::create($request->all());
         return redirect()->back()->with('msg', 'Recebi sua mensagem, embreve entrarei em contato! AGUARDE!!!');
     }
