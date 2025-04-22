@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <!-- /.card-header -->
-                            <form action="{{ route('admn.pages.projetos.store') }}" method="post"
+                            <form action="{{ route('admn.pages.project.store') }}" method="post"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <!-- form start -->

@@ -70,7 +70,7 @@
                                                         <td>{{ $item->desc }}</td>
                                                         <td>
                                                             <form onsubmit="return confirm('Deseja excluir?');"
-                                                                action="{{ route('admn.pages.projetos.destroy', $item->id) }}"
+                                                                action="{{ route('admn.pages.project.destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
