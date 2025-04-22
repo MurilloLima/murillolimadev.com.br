@@ -18,7 +18,8 @@ class ProjetosController extends Controller
      */
     public function index()
     {
-        return view('admin.pages.project.index');
+        $data = Projeto::latest()->get();
+        return view('admin.pages.project.index', compact('data'));
     }
 
     /**
@@ -53,7 +54,7 @@ class ProjetosController extends Controller
             $this->projeto->url = $request->url;
             $this->projeto->save();
             return redirect()->back()->with('msg', 'Cadastrado com sucesso!');
-        }   
+        }
     }
 
     /**
