@@ -144,7 +144,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{ route('dashboard') }}" class="nav-link">
+                            <a href="{{ route('admn.pages.project.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Projetos</p>
                             </a>
