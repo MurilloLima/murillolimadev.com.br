@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Aplicativo;
 use App\Models\Projeto;
+use App\Models\Website;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -14,9 +16,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $projetos1 = Projeto::latest()->skip(0)->take(3)->get();
-        $projetos2 = Projeto::latest()->skip(3)->take(3)->get();
-        return view('home.pages.index', compact(['projetos1', 'projetos2']));
+        $app = Aplicativo::latest()->skip(0)->take(5)->get();
+        $website = Website::latest()->skip(3)->take(5)->get();
+        return view('home.pages.index', compact(['app', 'website']));
     }
 
     /**

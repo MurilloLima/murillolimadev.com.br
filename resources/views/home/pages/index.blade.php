@@ -563,7 +563,8 @@
             <div class="row g-4">
                 <div class="col-lg-6 col-md-6">
                     <div class="project__wrapone">
-                        @foreach ($projetos1 as $item)
+                        <h2>Aplicativos</h2>
+                        @foreach ($app as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
                                 <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
@@ -589,7 +590,8 @@
                 <div class="col-lg-6 col-md-6">
 
                     <div class="project__wraptwo">
-                        @foreach ($projetos2 as $item)
+                        <h2>WebSites</h2>
+                        @foreach ($website as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
                                 <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">

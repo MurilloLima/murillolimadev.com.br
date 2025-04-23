@@ -16,6 +16,8 @@
     <title>Murillo Lima - @yield('title')</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="{{ asset('home/img/logo/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon">
+
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
     <!--<< Aos animation css >>-->
