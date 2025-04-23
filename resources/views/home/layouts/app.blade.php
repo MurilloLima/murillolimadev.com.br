@@ -6,6 +6,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{-- matas tags wt --}}
+    <meta property="og:site_name" content="Murillo Lima">
+    <meta property="og:title" content="Murillo Lima">
+    <meta property="og:description" content="Programador FullStack">
+    <meta property="og:image" itemprop="image" content="home/img/logo/favicon.png">
+    <meta property="og:type" content="website">
     <!--<< Title >>-->
     <title>Murillo Lima - @yield('title')</title>
     <!--<< Favcion >>-->
