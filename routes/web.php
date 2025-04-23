@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\Admin\AppController;
 use App\Http\Controllers\Admin\NoticiasController;
 use App\Http\Controllers\Admin\ProjetosController;
+use App\Http\Controllers\Admin\WebsiteController;
 use App\Http\Controllers\Home\ContatoController;
 use App\Http\Controllers\Home\HomeController as HomeHomeController;
 use App\Http\Controllers\HomeController;
@@ -32,11 +34,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/falecomigo', [ContatoController::class, 'index'])->name('admn.pages.conatatos.index');
     Route::get('/admin/falecomigo/{id}', [ContatoController::class, 'destroy'])->name('admn.pages.falecomigo.delete');
 
-    //projetos
-    Route::get('/admin/projetos', [ProjetosController::class, 'index'])->name('admn.pages.project.index');
-    Route::get('/admin/projeto/create', [ProjetosController::class, 'create'])->name('admn.pages.project.create');
-    Route::post('/admin/projeto/store', [ProjetosController::class, 'store'])->name('admn.pages.project.store');
-    Route::delete('/admin/projeto/delete/{id}', [ProjetosController::class, 'destroy'])->name('admn.pages.project.destroy');
+    //website
+    Route::get('/admin/projeto/website', [WebsiteController::class, 'index'])->name('admin.pages.website.index');
+    Route::get('/admin/projeto/website/create', [WebsiteController::class, 'create'])->name('admin.pages.website.create');
+    Route::post('/admin/projeto/website/store', [WebsiteController::class, 'store'])->name('admin.pages.website.store');
+    Route::delete('/admin/projeto/website/delete/{id}', [WebsiteController::class, 'destroy'])->name('admin.pages.website.destroy');
+
+     //app
+     Route::get('/admin/projetos/app', [AppController::class, 'index'])->name('admin.pages.app.index');
+     Route::get('/admin/projeto/app/create', [AppController::class, 'create'])->name('admin.pages.app.create');
+     Route::post('/admin/projeto/app/store', [AppController::class, 'store'])->name('admin.pages.app.store');
+     Route::delete('/admin/projeto/app/delete/{id}', [AppController::class, 'destroy'])->name('admin.pages.app.destroy');
 
     // sair
     Route::get('/sair', [HomeController::class, 'destroy'])->name('sair');

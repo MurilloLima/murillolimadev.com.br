@@ -3,23 +3,23 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Projeto;
+use App\Models\Website;
 use Illuminate\Http\Request;
 
-class ProjetosController extends Controller
+class WebsiteController extends Controller
 {
-    private $projeto;
-    public function __construct(Projeto $projeto)
+    private $website;
+    public function __construct(Website $website)
     {
-        $this->projeto = $projeto;
+        $this->website = $website;
     }
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $data = Projeto::latest()->get();
-        return view('admin.pages.project.index', compact('data'));
+        $data = Website::latest()->get();
+        return view('admin.pages.web.index', compact('data'));
     }
 
     /**
@@ -27,7 +27,7 @@ class ProjetosController extends Controller
      */
     public function create()
     {
-        return view('admin.pages.project.create');
+        return view('admin.pages.web.create');
     }
 
     /**
@@ -46,13 +46,13 @@ class ProjetosController extends Controller
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $imageName = time() . '.' . $request->image->extension();
-            $request->image->move(public_path('upload/projetos'), $imageName);
-            $this->projeto->name = $request->name;
-            $this->projeto->tec = $request->tec;
-            $this->projeto->desc = $request->desc;
-            $this->projeto->image = $imageName;
-            $this->projeto->url = $request->url;
-            $this->projeto->save();
+            $request->image->move(public_path('upload/projetos/app'), $imageName);
+            $this->website->name = $request->name;
+            $this->website->tec = $request->tec;
+            $this->website->desc = $request->desc;
+            $this->website->image = $imageName;
+            $this->website->url = $request->url;
+            $this->website->save();
             return redirect()->back()->with('msg', 'Cadastrado com sucesso!');
         }
     }
@@ -86,7 +86,7 @@ class ProjetosController extends Controller
      */
     public function destroy(string $id)
     {
-        $this->projeto->destroy($id);
+        $this->website->destroy($id);
         return redirect()->back()->with('msg', 'Deletada com sucesso!');
     }
 }

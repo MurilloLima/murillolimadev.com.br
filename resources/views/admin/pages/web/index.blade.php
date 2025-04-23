@@ -1,5 +1,5 @@
 @extends('admin.layout.app')
-@section('title', 'WebSite')
+@section('title', 'Web Sites')
 
 @section('content')
     <!-- Content Wrapper. Contains page content -->
@@ -21,19 +21,16 @@
             </div><!-- /.container-fluid -->
             <div class="row">
                 <div class="col-12">
-                    <a href="{{ route('admn.pages.website.create') }}" class="btn btn-primary"
+                    <a href="{{ route('admin.pages.website.create') }}" class="btn btn-primary"
                         style="margin-bottom: 10px">Cadastrar</a>
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Website</h3>
+                            <h3 class="card-title">Websites</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-6"></div>
-                                    <div class="col-sm-12 col-md-6"></div>
-                                </div>
+
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <table id="example2" class="table table-bordered table-hover dataTable dtr-inline"
@@ -70,7 +67,7 @@
                                                         <td>{{ $item->desc }}</td>
                                                         <td>
                                                             <form onsubmit="return confirm('Deseja excluir?');"
-                                                                action="{{ route('admn.pages.project.destroy', $item->id) }}"
+                                                                action="{{ route('admin.pages.website.destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
