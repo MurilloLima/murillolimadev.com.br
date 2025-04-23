@@ -566,8 +566,8 @@
                         <h2>Aplicativos</h2>
                         @foreach ($app as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                                <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
-                                    <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
+                                <a href="{{ asset('upload/projetos/app/' . $item->image) }}" class="thumb mb-30 imgc">
+                                    <img src="{{ asset('upload/projetos/app/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
                                     <a href="{{ $item->url }}" class="left__cont" target="_blank">
@@ -593,8 +593,8 @@
                         <h2>WebSites</h2>
                         @foreach ($website as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                                <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
-                                    <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
+                                <a href="{{ asset('upload/projetos/website/' . $item->image) }}" class="thumb mb-30 imgc">
+                                    <img src="{{ asset('upload/projetos/website/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
                                     <a href="{{ $item->url }}" class="left__cont" target="_blank">

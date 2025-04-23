@@ -46,7 +46,7 @@ class AppController extends Controller
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $imageName = time() . '.' . $request->image->extension();
-            $request->image->move(public_path('upload/projetos/app'), $imageName);
+            $request->image->move(public_path('upload/projetos/app/'), $imageName);
             $this->app->name = $request->name;
             $this->app->tec = $request->tec;
             $this->app->desc = $request->desc;

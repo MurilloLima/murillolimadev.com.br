@@ -46,7 +46,7 @@ class WebsiteController extends Controller
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $imageName = time() . '.' . $request->image->extension();
-            $request->image->move(public_path('upload/projetos/app'), $imageName);
+            $request->image->move(public_path('upload/projetos/website/'), $imageName);
             $this->website->name = $request->name;
             $this->website->tec = $request->tec;
             $this->website->desc = $request->desc;

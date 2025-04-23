@@ -16,8 +16,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $app = Aplicativo::latest()->skip(0)->take(5)->get();
-        $website = Website::latest()->skip(3)->take(5)->get();
+        $app = Aplicativo::latest()->get();
+        $website = Website::latest()->get();
         return view('home.pages.index', compact(['app', 'website']));
     }
 
