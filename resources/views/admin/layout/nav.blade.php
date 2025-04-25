@@ -89,7 +89,6 @@
                         <p>
                             Projetos
                             <i class="fas fa-angle-left right"></i>
-                            <span class="badge badge-info right">6</span>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
@@ -97,12 +96,16 @@
                             <a href="{{ route('admin.pages.app.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Aplicativo</p>
+                                <span class="badge badge-info right">{{ count(App\Models\Aplicativo::all()) }}</span>
+
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('admin.pages.website.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>WebSite</p>
+                                <span class="badge badge-info right">{{ count(App\Models\Website::all()) }}</span>
+
                             </a>
                         </li>
                     </ul>
