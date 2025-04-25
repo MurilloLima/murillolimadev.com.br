@@ -26,6 +26,15 @@
     <link rel="stylesheet" href="{{ asset('home/css/main.css') }}">
     {{-- icons --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    {{-- matas tags wt --}}
+    <meta property="og:site_name" content="Murillo Lima">
+    <meta property="og:title" content="Murillo Lima">
+    <meta property="og:description" content=" Desenvoldor FullStack">
+    <meta property="og:image" itemprop="image"
+        content="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
+    <meta property="og:type" content="website">
+
 </head>
 
 <body>
