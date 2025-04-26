@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{-- matas tags wt --}}
-    <meta property="og:site_name" content="Murillo Lima">
-    <meta property="og:title" content="Murillo Lima">
-    <meta property="og:description" content="Desenvoldor FullStack">
-    <meta property="og:image" itemprop="image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
-    <meta property="og:type" content="website">
+    <meta property="og:site" content="Murillo Lima">
+    <meta property="og:title" content="Murillo Lima" />
+    <meta property="og:description" content="Desenvolvedor Fullstack">
+    <meta property="og:url" content="https://exemplo.com/" />
+    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:type" content="website" />
+
     <!--<< Title >>-->
     <title>Murillo Lima - @yield('title')</title>
     <!--<< Favcion >>-->
@@ -31,8 +33,7 @@
     <meta property="og:site_name" content="Murillo Lima">
     <meta property="og:title" content="Murillo Lima">
     <meta property="og:description" content=" Desenvoldor FullStack">
-    <meta property="og:image" itemprop="image"
-        content="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
+    <meta property="og:image" itemprop="image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
     <meta property="og:type" content="website">
 
 </head>
