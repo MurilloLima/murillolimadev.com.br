@@ -23,9 +23,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     {{-- matas tags wt --}}
-    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:description" content="Desenvolvedor Full stack" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
+    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
     <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
     <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
     <meta property="og:image:height" content="100%" />
