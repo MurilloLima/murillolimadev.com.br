@@ -24,12 +24,14 @@
 
     {{-- matas tags wt --}}
     <meta property="og:description" content="Desenvolvedor Full stack" />
-    <meta property="og:image:width" content="200" />
+    <meta property="og:url" content="https://murillolimadev.com.br/" />
+    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
     <meta property="og:image:height" content="200" />
-    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
-    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
-    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="100%" />
+    
 </head>
 
 <body>
