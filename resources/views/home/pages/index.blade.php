@@ -133,8 +133,8 @@
     <section class="about__section pt-120 pb-120" id="about">
         <div class="container">
             <div class="personal__head text-center">
-                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
-                    data-aos-duration="1000">
+                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star"
+                    data-aos="fade-up" data-aos-duration="1000">
                 <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
                     Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
@@ -593,7 +593,8 @@
                         <h2>WebSites</h2>
                         @foreach ($website as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                                <a href="{{ asset('upload/projetos/website/' . $item->image) }}" class="thumb mb-30 imgc">
+                                <a href="{{ asset('upload/projetos/website/' . $item->image) }}"
+                                    class="thumb mb-30 imgc">
                                     <img src="{{ asset('upload/projetos/website/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
