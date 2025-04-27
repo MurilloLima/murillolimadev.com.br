@@ -5,15 +5,20 @@
     <!--<< Required meta tags >>-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    {{-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}">
+    <link rel="SHORTCUT ICON" href="https://www.murillolimadev.com.br/home/img/logo/favicon.ico" type="image/x-icon" />
 
     <!--<< Title >>-->
     <title>Murillo Lima - @yield('title')</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="{{ asset('home/img/logo/favicon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon">
+    <!--<< Favcion e tags >>-->
+    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image:width" content="100" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image:height" content="1000" />
+
 
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
@@ -24,17 +29,7 @@
     {{-- icons --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    {{-- matas tags wt --}}
-    <meta property="og:description" content="Desenvolvedor Full stack" />
-    <meta property="og:url" content="https://murillolimadev.com.br/" />
-    <meta property="og:image" content="https://murillolimadev.com.br/home/img/logo/favicon.png" />
-    <meta property="og:image:height" content="200" />
-    <meta property="og:image:width" content="200" />
-    <meta property="og:image:height" content="100" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta name="format-detection" content="telephone=no">
-    <meta property="og:title" content="Murillo Lima" />
+
 </head>
 
 <body>
