@@ -6,22 +6,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}">
-    <link rel="SHORTCUT ICON" href="https://www.murillolimadev.com.br/home/img/logo/favicon.ico" type="image/x-icon" />
-    <link rel="SHORTCUT ICON" href="https://www.murillolimadev.com.br/home/img/logo/favicon.png" type="image/x-icon" />
-
-    <!--<< Title >>-->
+    <meta rel="icon" type="image/png" href="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
     <title>Murillo Lima - @yield('title')</title>
     <!--<< Favcion e tags >>-->
+    <meta property="og:title" content="Murillo Lima" />
+    <meta property="og:description" content="Programador Full Stack" />
     <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image:secure_url" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="100" />
     <meta property="og:image:height" content="100" />
-    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
-    <meta property="og:image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png" />
-    <meta property="og:image:height" content="1000" />
+    <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
+    <!--<< end e tags >>-->
 
-
-    <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
     <!--<< Aos animation css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/aos.css') }}">
