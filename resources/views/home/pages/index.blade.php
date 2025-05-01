@@ -776,7 +776,7 @@
     <!--<< testimonial >>-->
 
     <!--<< blog >>-->
-    <section class="blog__section overhid pt-120 pb-120">
+    {{-- <section class="blog__section overhid pt-120 pb-120">
         <div class="container">
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-3">
