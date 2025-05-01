@@ -728,8 +728,8 @@
                             Design
                         </h2>
                         <p class="mb-30 pra fz-18">
-                            Com designs modernos e ferramentas avançadas, criar uma comunidade, compartilhar suas paixões e
-                            vender on-line é mais fácil do que nunca.
+                            O Webflow se destaca como um dos criadores de sites mais populares do mercado atual,
+                            impulsionando a criação de inúmeros sites, especialmente os corporativos simples.
                         </p>
                         {{-- <ul>
                             <li>
@@ -750,8 +750,8 @@
                             Webflow
                         </h2>
                         <p class="mb-30 pra fz-18">
-                            O Webflow se destaca como um dos criadores de sites mais populares do mercado atual,
-                            impulsionando a criação de inúmeros sites, especialmente os corporativos simples.
+                            Com designs modernos e ferramentas avançadas, criar uma comunidade, compartilhar suas paixões e
+                            vender on-line é mais fácil do que nunca.
                         </p>
                         {{-- <ul>
                             <li>
