@@ -23,7 +23,7 @@
                         </h1>
                         <div class="video__area">
                             <img src="{{ asset('home/img/banner/bn-arrow.png') }}" class="vid__arrow" alt="img">
-                            <a href="https://www.youtube.com/watch?v=zFuJgOiUEso&amp;ab_channel=SujithRajendran"
+                            <a href="https://www.youtube.com/watch?v=eqzMmuCDXy8"
                                 class="video__80 video-btn">
                                 <i class="bi bi-play-fill"></i>
                             </a>
