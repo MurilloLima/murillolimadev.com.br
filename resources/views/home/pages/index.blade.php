@@ -133,8 +133,8 @@
     <section class="about__section pt-120 pb-120" id="about">
         <div class="container">
             <div class="personal__head text-center">
-                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star"
-                    data-aos="fade-up" data-aos-duration="1000">
+                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
+                    data-aos-duration="1000">
                 <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
                     Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
@@ -707,9 +707,9 @@
                             Conceito
                         </h2>
                         <p class="mb-30 pra fz-18">
-                            Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
+                            Web Developer é responsável por planejar, criar, desenvolver e manter sites e aplicações web.
                         </p>
-                        <ul>
+                        {{-- <ul>
                             <li>
                                 Reviewing any existing branding
                             </li>
@@ -719,7 +719,7 @@
                             <li>
                                 Developing a strategy
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
@@ -728,9 +728,10 @@
                             Design
                         </h2>
                         <p class="mb-30 pra fz-18">
-                            Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
+                            Com designs modernos e ferramentas avançadas, criar uma comunidade, compartilhar suas paixões e
+                            vender on-line é mais fácil do que nunca.
                         </p>
-                        <ul>
+                        {{-- <ul>
                             <li>
                                 Developing wireframes and mockup
                             </li>
@@ -740,7 +741,7 @@
                             <li>
                                 Refining the design
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
@@ -749,9 +750,10 @@
                             Webflow
                         </h2>
                         <p class="mb-30 pra fz-18">
-                            Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
+                            O Webflow se destaca como um dos criadores de sites mais populares do mercado atual,
+                            impulsionando a criação de inúmeros sites, especialmente os corporativos simples.
                         </p>
-                        <ul>
+                        {{-- <ul>
                             <li>
                                 Testing the website thoroughly launch
                             </li>
@@ -761,7 +763,7 @@
                             <li>
                                 Refining the design
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
             </div>
@@ -774,7 +776,7 @@
     <!--<< testimonial >>-->
 
     <!--<< blog >>-->
-    {{-- <section class="blog__section overhid pt-120 pb-120">
+    <section class="blog__section overhid pt-120 pb-120">
         <div class="container">
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-3">
@@ -875,6 +877,5 @@
             </div>
         </div>
     </section> --}}
-    <!--<< blog >>-->
 
 @endsection
