@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}">
     <title>Murillo Lima - @yield('title')</title>
 
     {{-- matas tags wt --}}
@@ -14,6 +13,7 @@
     <meta property="og:title" content="">
     <meta property="og:description" content="Programador Full Stack Senior">
     <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.png') }}">
 
     <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
     <!--<< Aos animation css >>-->
