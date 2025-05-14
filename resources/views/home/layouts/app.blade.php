@@ -8,14 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Murillo Lima - @yield('title')</title>
 
+    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.png') }}">
     {{-- matas tags wt --}}
     <meta property="og:site_name" content="Murillo Lima">
     <meta property="og:title" content="">
     <meta property="og:description" content="Programador Full Stack Senior">
     <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
-    <link rel="icon" href="{{ asset('home/images/icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.png') }}">
-
     <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
     <!--<< Aos animation css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/aos.css') }}">
