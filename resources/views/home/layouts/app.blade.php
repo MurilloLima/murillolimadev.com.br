@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Murillo Lima - @yield('title')</title>
 
-    <link rel="icon" type="image/png" href="{{ asset('home/images/icon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
+
     {{-- matas tags wt --}}
     <meta property="og:site_name" content="Murillo Lima">
     <meta property="og:title" content="">
