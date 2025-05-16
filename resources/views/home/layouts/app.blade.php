@@ -21,6 +21,9 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="{{ asset('home/css/main.css') }}">
     {{-- icons --}}
+
+    <link rel="icon" href="{{ asset('home/img/logo/favicon.ico') }}" sizes="any">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 
