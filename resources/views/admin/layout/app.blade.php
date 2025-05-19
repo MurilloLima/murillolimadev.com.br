@@ -13,6 +13,7 @@
     <meta property="og:description" content="Desenvoldor FullStack">
     <meta property="og:image" itemprop="image" content="https://www.murillolimadev.com.br/home/img/logo/favicon.png">
     <meta property="og:type" content="website">
+    <link href="{{ asset('home/img/logo/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
 
 
 
