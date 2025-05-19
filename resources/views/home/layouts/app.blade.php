@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Murillo Lima - @yield('title')</title>
     <!-- Favicon -->
+    <link href="{{ asset('home/img/logo/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
     <link rel="icon" href="{{ asset('home/img/logo/favicon.png') }}" sizes="any">
     <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon">
     <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
