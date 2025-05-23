@@ -5,14 +5,13 @@
     <!--<< Required meta tags >>-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="https://destaquenoticias.com/home/images/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Murillo Lima - @yield('title')</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
     <link href="{{ asset('home/img/logo/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
-    <link rel="icon" href="{{ asset('home/img/logo/favicon.png') }}" sizes="any">
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon">
+    <link rel="icon" href="{{ asset('home/img/logo/favicon.png') }}" sizes="any" />
+    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon" />
     <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
 
     {{-- matas tags wt --}}
